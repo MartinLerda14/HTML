@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Detalles</h1>
+    <p>Calle falsa 123</p>
+    <p>03254654564</p>
+    <p>martin@gmail.com</p>
+    <hr>
+    <form action="mailto:martinlerda21@gmail.com" method="post" enctype="text/plain"> <!--Se usa la etiqueta form para definir lo que debe incluirse en el formulario-->
+        <label>Tu nombre:</label> <!--Lo que hace mailto es que cuando se apreta el boton enviar,
+                                    se abrirar el cliente de correo predeterminado-->
+        <input type="text" name="tuNombre"><br>
+        <label for="">Tu Mail:</label>
+        <input type="email" name="tuMail" id=""><br>
+        <label for="">Tu mensaje:</label><br>
+        <textarea name="tuMensaje" id="" cols="30" rows="10"></textarea> <br><!-- Cuadro de dialogo-->
+        <input type="submit">
+    </form>
+</body>
+</html>
